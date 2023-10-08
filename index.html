@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./Scripts/digitalClock.js"></script>
+    <title>Uni Planner</title>
+  </head>
+  <body onload="initClock()">
+    <header></header>
+
+    <div class="title">
+      <h1>Uni Planner</h1>
+      <hr />
+      <hr />
+    </div>
+
+    <div class="todo">
+      <ul class="todo-list1">
+        <p>💜monday</p>
+        <li class="flip">
+          <input type="checkbox" id="checkbox1" />
+          <label for="checkbox1">08:00 - 14:00 Free</label>
+        </li>
+        <li class="flip">
+          <input type="checkbox" id="checkbox2" />
+          <label for="checkbox2"
+            >14:00 - 16:00 Electromagnetism &#40;Course&#41;⚡</label
+          >
+        </li>
+        <li class="flip">
+          <input type="checkbox" id="checkbox3" />
+          <label for="checkbox3"
+            >14:00 - 16:00 Electromagnetism &#40;Course&#41;⚡</label
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="profile">
+      <img src="./Images/suzy.jpg" alt="" id="pfp" />
+    </div>
+
+    <div class="clock">
+      <div class="datetime">
+        <div class="date">
+          <span id="dayname">Day</span>,
+          <span id="month">Month</span>
+          <span id="daynum">00</span>,
+          <span id="year">Year</span>
+        </div>
+
+        <div class="time">
+          <span id="hour">00</span>
+          :
+          <span id="minutes">00</span>
+          :
+          <span id="seconds">00</span>
+          <span id="period">AM</span>
+        </div>
+      </div>
+    </div>
+    <script src="./Scripts/checkboxCookies.js"></script>
+  </body>
+</html>
